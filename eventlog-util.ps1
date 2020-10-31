@@ -10,7 +10,7 @@
 #>
 
 $EventLogs = "System","Security","Windows PowerShell","Microsoft-Windows-Sysmon/Operational"
-$FileShare = "\\DESKTOP-197R9L4\Users\desktop\test"
+$FileShare = "\\10.100.0.1\share"
 $DriveLetter = "U"
 
 Function Clear-EventLogs {
